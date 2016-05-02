@@ -1,4 +1,4 @@
-# Create the appropriate subsetof data 
+# Create the appropriate subset of data 
 pwc <- read.csv("household_power_consumption.txt", sep=";")
 pwc_ss <- subset(pwc, pwc$Date == "1/2/2007" | pwc$Date == "2/2/2007")
 
