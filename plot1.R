@@ -7,7 +7,7 @@ png(filename = "plot1.png",
     width = 480, height = 480, units = "px", pointsize = 12,
     bg = "white", type ="windows")
 
-# Multiple plot parameters, in asthey're not c(1,1)
+# Multiple plot parameters, in case they're not c(1,1)
 par(mfrow=c(1,1) )
 
 # Create the histogram for Plot#1
